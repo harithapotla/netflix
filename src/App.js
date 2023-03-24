@@ -1,8 +1,12 @@
+import './app.scss';
+import Home from "./home/Home";
+
 
 function App() {
   return (
     <div className="App">
-    Hello welcome to create netflix app
+    <Home/>
+
     </div>
   );
 }
